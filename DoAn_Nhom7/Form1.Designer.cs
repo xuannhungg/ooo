@@ -36,6 +36,7 @@
             this.lblTimKiem = new System.Windows.Forms.Label();
             this.cmbTimKiem = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnKhaiTu = new System.Windows.Forms.Button();
             this.btnSinhTu = new System.Windows.Forms.Button();
             this.bthHonNhan = new System.Windows.Forms.Button();
             this.btnThongKeDS = new System.Windows.Forms.Button();
@@ -69,7 +70,6 @@
             this.button14 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.btnKhaiTu = new System.Windows.Forms.Button();
             this.tclChucNang.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -186,6 +186,16 @@
             this.panel1.Size = new System.Drawing.Size(768, 265);
             this.panel1.TabIndex = 4;
             // 
+            // btnKhaiTu
+            // 
+            this.btnKhaiTu.Location = new System.Drawing.Point(600, 153);
+            this.btnKhaiTu.Name = "btnKhaiTu";
+            this.btnKhaiTu.Size = new System.Drawing.Size(114, 79);
+            this.btnKhaiTu.TabIndex = 8;
+            this.btnKhaiTu.Text = "Khai tu";
+            this.btnKhaiTu.UseVisualStyleBackColor = true;
+            this.btnKhaiTu.Click += new System.EventHandler(this.btnKhaiTu_Click);
+            // 
             // btnSinhTu
             // 
             this.btnSinhTu.Location = new System.Drawing.Point(470, 153);
@@ -213,6 +223,7 @@
             this.btnThongKeDS.TabIndex = 5;
             this.btnThongKeDS.Text = "Thong ke dan so";
             this.btnThongKeDS.UseVisualStyleBackColor = true;
+            this.btnThongKeDS.Click += new System.EventHandler(this.btnThongKeDS_Click);
             // 
             // btnTraCuu
             // 
@@ -519,16 +530,6 @@
             this.tabPage3.TabIndex = 6;
             this.tabPage3.Text = "Thong bao";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // btnKhaiTu
-            // 
-            this.btnKhaiTu.Location = new System.Drawing.Point(600, 153);
-            this.btnKhaiTu.Name = "btnKhaiTu";
-            this.btnKhaiTu.Size = new System.Drawing.Size(114, 79);
-            this.btnKhaiTu.TabIndex = 8;
-            this.btnKhaiTu.Text = "Khai tu";
-            this.btnKhaiTu.UseVisualStyleBackColor = true;
-            this.btnKhaiTu.Click += new System.EventHandler(this.btnKhaiTu_Click);
             // 
             // Form1
             // 

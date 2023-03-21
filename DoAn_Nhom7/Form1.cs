@@ -137,5 +137,11 @@ namespace DoAn_Nhom7
             FKhaiTu form = new FKhaiTu();
             form.Show();
         }
+
+        private void btnThongKeDS_Click(object sender, EventArgs e)
+        {
+            FThongKe form = new FThongKe();
+            form.ShowDialog();
+        }
     }
 }
