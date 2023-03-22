@@ -24,7 +24,6 @@ namespace DoAn_Nhom7
         private void FThongKe_Load(object sender, EventArgs e)
         {
             conn.Open();
-            string a = "";
             string sqlStr = "Select gioiTinh, count(*) as soLuong from CongDan group by gioiTinh";
             SqlCommand cmd = new SqlCommand(sqlStr, conn);
             SqlDataAdapter ad = new SqlDataAdapter(cmd);

@@ -111,6 +111,7 @@ namespace DoAn_Nhom7
                 conn.Close();
                 a = a.Substring(32);
             }
+            conn.Close();
             return a;
         }
         public bool KiemTraHonNhan(string cmnd)
@@ -155,7 +156,7 @@ namespace DoAn_Nhom7
             }
             else
             {
-                MessageBox.Show("Không tìm thấy ai có tinh trang hon nhan la (Chua ket hon)!");
+                MessageBox.Show("Không tìm thấy!");
             }
             conn.Close();
             return ds;

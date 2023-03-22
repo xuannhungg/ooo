@@ -92,12 +92,12 @@ namespace DoAn_Nhom7
         }
         public void TimNguoiDaKetHon()
         {
-            DataSet dts = congdandao.TimCongDanTheoTinhTrangHonNhan(rdbDaKetHon.Text,dGVDanhSach);
+            DataSet dts = congdandao.TimCongDanDaKetHon(dGVDanhSach);
             this.dGVDanhSach.DataSource = dts.Tables["tinhTrangHonNhan"];
         }
         public void TimNguoiChuaKetHon()
         {
-            DataSet dts = congdandao.TimCongDanTheoTinhTrangHonNhan(rdbChuaKetHon.Text, dGVDanhSach);
+            DataSet dts = congdandao.TimCongDanDocThan(dGVDanhSach);
             this.dGVDanhSach.DataSource = dts.Tables["tinhTrangHonNhan"];
         }
         private void dGVDanhSach_CellContentClick(object sender, DataGridViewCellEventArgs e)
