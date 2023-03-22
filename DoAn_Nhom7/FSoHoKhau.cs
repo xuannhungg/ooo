@@ -47,7 +47,17 @@ namespace DoAn_Nhom7
 
         private void gvSoHoKhau_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            LayDanhSach();
+            DataGridViewRow row = new DataGridViewRow();
+            row = gvSoHoKhau.Rows[e.RowIndex];
+            txtMaKhuVuc.Text = row.Cells[0].Value.ToString();
+            txtXaPhuong.Text = row.Cells[1].Value.ToString();
+            txtQuanHuyen.Text = row.Cells[2].Value.ToString();
+            txtTinhThanhPho.Text = row.Cells[3].Value.ToString();
+            txtCMND.Text = row.Cells[4].Value.ToString();
+            txtMaSoHoKhau.Text = row.Cells[5].Value.ToString();
+            txtHoTenChuHo.Text = row.Cells[6].Value.ToString();
+            txtDiaChi.Text = row.Cells[7].Value.ToString();
+            tpNgayLap.Text = row.Cells[8].Value.ToString();
         }
 
         private void FSoHoKhau_Load(object sender, EventArgs e)

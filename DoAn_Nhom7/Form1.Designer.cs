@@ -37,7 +37,7 @@
             this.cmbTimKiem = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnKhaiTu = new System.Windows.Forms.Button();
-            this.btnSinhTu = new System.Windows.Forms.Button();
+            this.btnKhaiSinh = new System.Windows.Forms.Button();
             this.bthHonNhan = new System.Windows.Forms.Button();
             this.btnThongKeDS = new System.Windows.Forms.Button();
             this.btnTraCuu = new System.Windows.Forms.Button();
@@ -173,7 +173,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.btnKhaiTu);
-            this.panel1.Controls.Add(this.btnSinhTu);
+            this.panel1.Controls.Add(this.btnKhaiSinh);
             this.panel1.Controls.Add(this.bthHonNhan);
             this.panel1.Controls.Add(this.btnThongKeDS);
             this.panel1.Controls.Add(this.btnTraCuu);
@@ -196,14 +196,15 @@
             this.btnKhaiTu.UseVisualStyleBackColor = true;
             this.btnKhaiTu.Click += new System.EventHandler(this.btnKhaiTu_Click);
             // 
-            // btnSinhTu
+            // btnKhaiSinh
             // 
-            this.btnSinhTu.Location = new System.Drawing.Point(470, 153);
-            this.btnSinhTu.Name = "btnSinhTu";
-            this.btnSinhTu.Size = new System.Drawing.Size(114, 79);
-            this.btnSinhTu.TabIndex = 7;
-            this.btnSinhTu.Text = "Khai sinh/tu";
-            this.btnSinhTu.UseVisualStyleBackColor = true;
+            this.btnKhaiSinh.Location = new System.Drawing.Point(470, 153);
+            this.btnKhaiSinh.Name = "btnKhaiSinh";
+            this.btnKhaiSinh.Size = new System.Drawing.Size(114, 79);
+            this.btnKhaiSinh.TabIndex = 7;
+            this.btnKhaiSinh.Text = "Khai sinh";
+            this.btnKhaiSinh.UseVisualStyleBackColor = true;
+            this.btnKhaiSinh.Click += new System.EventHandler(this.btnKhaiSinh_Click);
             // 
             // bthHonNhan
             // 
@@ -563,7 +564,7 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnSinhTu;
+        private System.Windows.Forms.Button btnKhaiSinh;
         private System.Windows.Forms.Button bthHonNhan;
         private System.Windows.Forms.Button btnThongKeDS;
         private System.Windows.Forms.Button btnTraCuu;

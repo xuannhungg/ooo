@@ -197,6 +197,20 @@ namespace DoAn_Nhom7
             }
             conn.Close();
         }
-
+        public void KhaiSinh_KeyDown(TextBox cmnd,TextBox ten,TextBox danToc)
+        {
+            conn.Open();
+            string sqlStr = "Select * from CongDan where cmnd = '" + cmnd.Text + "'";
+            SqlCommand cmd = new SqlCommand(sqlStr, conn);
+            SqlDataReader dta = cmd.ExecuteReader();
+            while (dta.Read())
+            {
+                ten.Text = Convert.ToString(dta["hoTen"]);
+               
+                danToc.Text = Convert.ToString(dta["danToc"]);
+            
+            }
+            conn.Close();
+        }
     }
 }

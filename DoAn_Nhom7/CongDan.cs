@@ -110,6 +110,18 @@ namespace DoAn_Nhom7
             this.NoiThuongTru = noiThuongTru;
             this.NgheNghiep = ngheNghiep;
         }
+
+        public CongDan(string HoTen,string ngayThangNamSinh, string gioiTinh, string danToc) 
+        {
+            this.danToc = danToc;
+            this.HoTen = HoTen;
+            this.gioiTinh=gioiTinh;
+            this.ngayThangNamSinh=ngayThangNamSinh;
+
+        }
+
+        
+
         ~CongDan()
         {
 
