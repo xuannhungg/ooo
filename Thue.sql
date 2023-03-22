@@ -10,10 +10,10 @@ REFERENCES CongDan (cmnd)
 )
 
 insert into Thue (CCCD, LoaiThue, MucThue, TinhTrang)
-values ('1800456','Thue thu nhap ca nhan',1.5, 'Chua dong');
+values ('1','Thue thu nhap ca nhan',1.5, 'Chua dong');
 insert into Thue (CCCD, LoaiThue, MucThue, TinhTrang)
-values ('1800457','Thue thu nhap ca nhan',2.4, 'Chua dong');
+values ('2','Thue thu nhap ca nhan',2.4, 'Chua dong');
 insert into Thue (CCCD, LoaiThue, MucThue, TinhTrang)
-values ('1800458','Thue thu nhap ca nhan',3.6, 'Chua dong');
+values ('3','Thue thu nhap ca nhan',3.6, 'Chua dong');
 
 select * from Thue

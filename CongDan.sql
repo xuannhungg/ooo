@@ -14,11 +14,11 @@ CREATE TABLE CongDan (
  luong nvarchar(20)
 );
 INSERT INTO CongDan (hoTen, ngayThangNamSinh, gioiTinh,cmnd,danToc,tinhTrangHonNhan,noiDangKiKhaiSinh,queQuan,noiThuongTru,trinhDoHocVan,ngheNghiep, luong)
-VALUES ('nva', '25/12/2003', 'nam','1800456','kinh','chua ket hon','nghe an','nghe an','nghe an','dai hoc','sinh vien', '0');
+VALUES ('nva', '1/1/2003', 'nam','1','kinh','chua ket hon','nghe an','nghe an','nghe an','dai hoc','sinh vien', '1000000');
 INSERT INTO CongDan (hoTen, ngayThangNamSinh, gioiTinh,cmnd,danToc,tinhTrangHonNhan,noiDangKiKhaiSinh,queQuan,noiThuongTru,trinhDoHocVan,ngheNghiep, luong)
-VALUES ('nva1', '25/12/2003', 'nam','1800457','kinh','chua ket hon','nghe an','nghe an','nghe an','dai hoc','sinh vien', '0');
+VALUES ('nva1', '2/2/2003', 'nam','2','kinh','chua ket hon','nghe an','nghe an','nghe an','dai hoc','sinh vien', '2200000');
 INSERT INTO CongDan (hoTen, ngayThangNamSinh, gioiTinh,cmnd,danToc,tinhTrangHonNhan,noiDangKiKhaiSinh,queQuan,noiThuongTru,trinhDoHocVan,ngheNghiep, luong)
-VALUES ('nva2', '25/12/2003', 'nam','1800458','kinh','chua ket hon','nghe an','nghe an','nghe an','dai hoc','sinh vien', '0');
+VALUES ('nva2', '3/3/2003', 'nam','3','kinh','chua ket hon','nghe an','nghe an','nghe an','dai hoc','sinh vien', '30000000');
 
 select * from CongDan
 

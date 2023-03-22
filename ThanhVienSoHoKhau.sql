@@ -14,16 +14,13 @@ CREATE TABLE ThanhVienSoHoKhau(
 );
 
 insert into ThanhVienSoHoKhau(cccd_ChuHo, cccd, quanHeVoiChuHo)
-values ('1800456','666','Con trai');
+values ('1','2','Con trai');
 insert into ThanhVienSoHoKhau(cccd_ChuHo, cccd, quanHeVoiChuHo)
-values ('1800457','1800458','Con trai');
-
-insert into ThanhVienSoHoKhau(cccd_ChuHo, cccd, quanHeVoiChuHo)
-values ('1800457','1','Con gai');
+values ('1','3','Con gai');
 
 select * from ThanhVienSoHoKhau
 
-select shk.hoTenChuHo, shk.CMND as cmnd_chuHo, cd.cmnd as cmnd_thanhVien, cd.hoTen as hoTen_ThanhVien, tv.quanHeVoiChuHo
+select shk.hoTenChuHo, shk.CMND as cmnd_chuHo, tv.cccd as cmnd_thanhVien, cd.hoTen as hoTen_ThanhVien, tv.quanHeVoiChuHo
 from CongDan cd, SoHoKhau shk, ThanhVienSoHoKhau tv
 where cd.cmnd = shk.CMND and shk.CMND = tv.cccd_ChuHo 
 
