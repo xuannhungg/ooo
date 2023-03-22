@@ -40,7 +40,6 @@
             this.btnKhaiSinh = new System.Windows.Forms.Button();
             this.bthHonNhan = new System.Windows.Forms.Button();
             this.btnThongKeDS = new System.Windows.Forms.Button();
-            this.btnTraCuu = new System.Windows.Forms.Button();
             this.btnSoHoKhau = new System.Windows.Forms.Button();
             this.btnThue = new System.Windows.Forms.Button();
             this.btnCCCD = new System.Windows.Forms.Button();
@@ -176,7 +175,6 @@
             this.panel1.Controls.Add(this.btnKhaiSinh);
             this.panel1.Controls.Add(this.bthHonNhan);
             this.panel1.Controls.Add(this.btnThongKeDS);
-            this.panel1.Controls.Add(this.btnTraCuu);
             this.panel1.Controls.Add(this.btnSoHoKhau);
             this.panel1.Controls.Add(this.btnThue);
             this.panel1.Controls.Add(this.btnCCCD);
@@ -208,7 +206,7 @@
             // 
             // bthHonNhan
             // 
-            this.bthHonNhan.Location = new System.Drawing.Point(320, 153);
+            this.bthHonNhan.Location = new System.Drawing.Point(316, 153);
             this.bthHonNhan.Name = "bthHonNhan";
             this.bthHonNhan.Size = new System.Drawing.Size(114, 79);
             this.bthHonNhan.TabIndex = 6;
@@ -225,15 +223,6 @@
             this.btnThongKeDS.Text = "Thong ke dan so";
             this.btnThongKeDS.UseVisualStyleBackColor = true;
             this.btnThongKeDS.Click += new System.EventHandler(this.btnThongKeDS_Click);
-            // 
-            // btnTraCuu
-            // 
-            this.btnTraCuu.Location = new System.Drawing.Point(544, 55);
-            this.btnTraCuu.Name = "btnTraCuu";
-            this.btnTraCuu.Size = new System.Drawing.Size(114, 79);
-            this.btnTraCuu.TabIndex = 4;
-            this.btnTraCuu.Text = "Tra cuu";
-            this.btnTraCuu.UseVisualStyleBackColor = true;
             // 
             // btnSoHoKhau
             // 
@@ -567,7 +556,6 @@
         private System.Windows.Forms.Button btnKhaiSinh;
         private System.Windows.Forms.Button bthHonNhan;
         private System.Windows.Forms.Button btnThongKeDS;
-        private System.Windows.Forms.Button btnTraCuu;
         private System.Windows.Forms.Button btnSoHoKhau;
         private System.Windows.Forms.Button btnThue;
         private System.Windows.Forms.Button btnCCCD;
